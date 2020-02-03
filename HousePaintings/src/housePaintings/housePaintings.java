@@ -5,7 +5,7 @@ public class housePaintings {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-		
+		//changes to commit
 		//Accept all dimensions
 		System.out.println("Enter width of the house: ");
 		int houseWidth = scan.nextInt();
