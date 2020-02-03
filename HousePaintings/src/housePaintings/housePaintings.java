@@ -13,7 +13,7 @@ public class housePaintings {
 		int houseLength = scan.nextInt();
 		
 		//Perform Computations
-   
+    
 		//Print the result
 		
 		System.out.println("Enter height of the house: ");
