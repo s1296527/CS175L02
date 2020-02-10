@@ -14,6 +14,7 @@ public class housePaintings {
 		
 		//Perform Computations
     
+		
 		//Print the result
 		
 		System.out.println("Enter height of the house: ");
