@@ -1,1 +1,122 @@
+package homeWorkExercises;
+
+import java.util.Scanner;
+
+public class practiceExercises2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//E5.4
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter first number");
+		int n1 = scan.nextInt();
+		System.out.println("Enter second number");
+		int n2 = scan.nextInt();
+		System.out.println("Enter third number");
+		int n3 = scan.nextInt();
+		
+		if (n1 == n2 && n1 == n3)
+		{
+			System.out.println("All numbers are the same");
+		}
+		else if ((n1 == n2) || (n1 == n3) || (n3 == n2))
+		{
+			System.out.println("Numbers are partialy the same");
+		}
+		else
+		{	
+			System.out.println("numbers are different");
+		}
+		
+		//E5.7
+		
+		System.out.println("Enter first number");
+		int num1 = scan.nextInt();
+		System.out.println("Enter second number");
+		int num2 = scan.nextInt();
+		System.out.println("Enter third number");
+		int num3 = scan.nextInt();
+		
+		if (num1 < num2 && num2 < num3)
+		{
+			System.out.println("In order");
+		}
+		else if (num1 > num2 && num2 > num3)
+		{
+			System.out.println("In order");
+		}
+		else 
+		{
+			System.out.println("Not in order");
+		}
+		
+		//5.8
+		
+		System.out.println("Enter first number");
+		int i1 = scan.nextInt();
+		System.out.println("Enter second number");
+		int i2 = scan.nextInt();
+		System.out.println("Enter third number");
+		int i3 = scan.nextInt();
+		System.out.println("Enter fourth nnumber");
+		int i4 = scan.nextInt();
+		
+		if (i1 == i2 && i3 == i4)
+		{
+			System.out.println("Two pairs");
+		}
+		else if (i2 == i4 && i1 == i3)
+		{
+			System.out.println("Two pairs");
+		}
+		else
+		{
+			System.out.println("Not two pairs");
+		}
+		
+		// Business E5.10
+		
+		System.out.println("Enter employee's name");
+		String myName = scan.next();
+		System.out.println("What is your salary");
+		double salary = scan.nextInt();
+		
+		System.out.println("How many hours have you worked in the past week?");
+		double hours = scan.nextInt();
+		
+		if (hours > 40)
+		{ 
+			double pay = hours * salary * 1.5;
+			System.out.println("you earned: $" + pay);
+		}
+		else if (hours <= 40)
+		{
+			double pay = hours * salary;
+			System.out.println("you earned: $" + pay);
+		}
+		
+		//E5.11
+		
+		System.out.println("what is the temputure of the water in Fahrenheint");
+		double temp = scan.nextInt();
+		
+		if (temp >= 212)
+		{
+			System.out.println("water is gaseous");
+		}
+		else if (temp <= 212)
+		{
+			System.out.println("water is liquid");
+		}
+		if (temp < 32)
+		{
+			System.out.println("water is frozen");
+		
+		
+		}
+	}
+
+}
 
