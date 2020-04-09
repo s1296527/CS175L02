@@ -1,0 +1,71 @@
+		Counter venue = new Counter();
+		int rValue=venue.getValue();
+		System.out.println(rValue);
+
+		venue.click();
+		rValue=venue.getValue();
+		System.out.println(rValue);
+		
+		venue.unclick();
+		venue.unclick();
+		rValue=venue.getValue();
+		System.out.println("venue =" + rValue);
+		
+		for (int c = 0; c <= 10; c++)
+		{
+			venue.click();
+		}
+		
+		for (int c = 0; c <= 5; c++)
+		{
+			venue.unclick();
+		}
+		
+		System.out.println(" expected venue = 5");
+		System.out.println(" actual venue = " + rValue);
+		
+		venue.reset();
+		
+		for (int c = 0; c <= 3; c++)
+		{
+			venue.click();
+		}
+		
+		for (int c = 0; c <= 4; c++)
+		{
+			venue.unclick();
+		}
+		
+		System.out.println(" Expected venue = -1");
+		System.out.println(" actual venue = " + rValue);
+		
+		Counter anotherVenue = new Counter
+		
+				for (int c = 0; c <= 10 c++)
+		{
+			anotherVenue.clickMany();
+		}
+		
+		for (c = 0; c <= 5; C++)
+		{
+			anotherVenue.unclickMany();
+		}
+		
+		System.out.println(" Expected venue = 5");
+		System.out.println(" actual venue = " + rValue);
+		
+		anotherVenue.reset();
+		
+		for ( c = 0; c <= 3; c++)
+		{
+			anotherVenue.clickMany();
+		}
+		
+		for (c = 0; c <= 4; c++)
+		{
+			anotherVenue.unclickMany();
+		}
+		
+		System.out.println(" Expected venue = -1");
+		System.out.println(" actual venue = " + rValue);
+	}
