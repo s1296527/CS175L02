@@ -1,0 +1,22 @@
+
+public class RoachesSimulation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		RoachPopulation population = new RoachPopulation(10);
+		
+		population.breed();
+		population.spray(50);
+		System.out.print(population.getRoaches());
+		population.breed();
+		population.spray(60);
+		System.out.print(population.getRoaches());
+		population.breed();
+		population.spray(70);
+		System.out.print(population.getRoaches());;
+		population.breed();
+		population.spray(80);
+		System.out.print(population.getRoaches());
+		
+		
