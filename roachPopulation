@@ -1,0 +1,41 @@
+public class RoachPopulation {
+
+	public RoachPopulation(int i) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		breed();
+		spray();
+		getRoaches();	
+		
+	}
+
+	static boolean getRoaches() {
+		// TODO Auto-generated method stub
+		
+		int getRoaches;
+		
+	}
+
+	static void spray() {
+		// TODO Auto-generated method stub
+		
+		int spray = 0;
+		spray = spray/100;
+	}
+
+	static void breed() {
+		// TODO Auto-generated method stub
+		
+		double breed;
+	}
+
+	public void spray(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
